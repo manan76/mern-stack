@@ -1,0 +1,30 @@
+{
+  "name": "forumd",
+  "version": "1.0.0",
+  "description": "An online forum API created with Node.js/Express and MongoDB.",
+  "engines": {
+    "node": "8.9.3"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"nodemon server.js\" \"node start-client.js\"",
+    "server": "node server.js"
+  },
+  "author": "Earl Perez",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^3.6.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^4.13.20",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react-quill": "^1.3.3",
+    "short-id": "0.1.0-1"
+  }
+}
