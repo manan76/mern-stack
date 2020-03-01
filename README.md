@@ -16,6 +16,8 @@ cd client
 
 yarn
 
-cd..
+cd ..
+
+cd server
 
 npm run start
